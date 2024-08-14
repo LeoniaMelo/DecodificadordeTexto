@@ -1,0 +1,140 @@
+/* Estilos gerais */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #D8DFE8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #D8DFE8;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+header {
+    background-color: #D8DFE8;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative; 
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between; 
+    position: relative;
+    min-height: 100vh; 
+}
+
+.input-area{
+    border: none;
+    padding-right: 0; 
+    margin-right: 0;
+}
+
+.output-area {
+    
+    padding: 20px;
+    position: absolute; 
+    top: 0; 
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 60%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 32px;
+    background-color: #fff;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+textarea {
+    width: 100%;
+    height: 450px;
+    padding: 10px;
+    font-size: 2.4rem;
+    font-family: 'Inter', sans-serif;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: none;
+}
+
+textarea::placeholder {
+    color: #0A3871;
+    font-size: 2.4rem;
+    font-family: 'Inter', sans-serif; 
+}
+
+button {
+    background-color: #0A3871;
+    color: #fff;
+    border-color: #0A3871;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.resultado img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 20px;
+}
+
+#copiar {
+    display: none;
+}
+
+#textoinformativo{
+    font-size: small;
+}
+
+#textostitulooutput{
+    font-size: large;
+}
+
+footer {
+    color: #0A3871;
+    text-align: center; 
+    padding: 1rem 0; 
+    margin-top: 20px; 
+  }

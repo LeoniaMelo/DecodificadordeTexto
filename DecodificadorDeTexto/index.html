@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><a href="#"><img src="./content/img/logoalura.png" alt="Logo"></a></h1> </header>
+        </header>
+        <main>
+            <section class="input-area">
+                <textarea id="texto" placeholder="Digite seu Texto"></textarea>
+                <p style="color: #0A3871; text-align: center;">Apenas letras minúsculas e sem acento.</p> 
+                <div class="buttons">
+                    <button id="criptografar">Criptografar</button>
+                    <button id="descriptografar" style="background-color: #D8DFE8; color: #0A3871;">Descriptografar</button>
+                </div>
+            </section>
+            <section class="output-area">
+                <div class="resultado">
+                    <img src="./content/img/1.PNG.png" alt="Resultado"> 
+                    <p id="textostitulooutput"><strong>Nenhuma mensagem encontrada</strong></p>
+                    <p id="textoinformativo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <button id="copiar" style="display: none;">Copiar</button>
+            </section>
+        </main>
+        <footer>
+            <p>Desenvolvedor: Maria Leônia de Melo Cavalcante </p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
